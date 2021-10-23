@@ -8,19 +8,21 @@
 
 /* Defining body styling */
 body {
-    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
+    color:var(--primary-color);
 }
 
 /* Defining Header Styles */
 header {
-background-color: var(--secondary-color);
-
+background-color: var(--primary-color);
+color: var(--secondary-color);
 }
 
 /* Defining Hero Styles */
 .hero {
     background-image: url('../images/hero_background.jpg');
+    color: var(--secondary-color);
 }
 
 /* Defining Content Styles */
