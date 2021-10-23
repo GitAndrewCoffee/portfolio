@@ -22,3 +22,17 @@ background-color: var(--secondary-color);
 .hero {
     background-image: url('../images/hero_background.jpg');
 }
+
+/* Defining Content Styles */
+content {
+
+    background-color: var(--tertiary-color);
+
+}
+
+/* Defining Footer Styles */
+footer {
+
+    background-color: var(--secondary-color);
+
+}
