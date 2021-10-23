@@ -4,6 +4,7 @@
     --primary-color: #a1b6bb;
     --primary-color-shadow: #a1b6bb8e;
     --secondary-color: #2f3131;
+    --secondary-color-shadow: #2f313185;
     --tertiary-color: #e1f3f5;
     --tertiary-color-shadow: #e1f3f598;
 }
@@ -97,12 +98,46 @@ header nav ul {
     text-shadow: 2px 2px 4px var(--primary-color-shadow);
 }
 
-
+/* */
 /* Defining Content Styles */
-content {
+/* */
+.contentHolder {
+
+    background-color: var(--tertiary-color-shadow);
+    margin-bottom: 25px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.contentRow {
 
     background-color: var(--tertiary-color);
+    margin-bottom: 25px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    align-items: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 
+}
+
+.contentTitle {
+    width: 20%;
+    border-right: medium;
+    border-right-style: solid;
+    border-right-color: var(--secondary-color-shadow);
+}
+
+.contentMain {
+    width: 75%;
+    text-overflow: wrap;
+    color: var(--secondary-color);
 }
 
 /* Defining Footer Styles */
