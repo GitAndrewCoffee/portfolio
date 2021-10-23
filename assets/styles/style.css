@@ -1,0 +1,24 @@
+/* Defining my base colors */
+
+:root {
+    --primary-color: #a1b6bb;
+    --secondary-color: #2f3131;
+    --tertiary-color: #e1f3f5;
+}
+
+/* Defining body styling */
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Defining Header Styles */
+header {
+background-color: var(--secondary-color);
+
+}
+
+/* Defining Hero Styles */
+.hero {
+    background-image: url('../images/hero_background.jpg');
+}
