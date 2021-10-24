@@ -35,7 +35,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * CSS
 
 ## Website
-https://gitandrewcoffee.github.io/challenge-1/
+https://gitandrewcoffee.github.io/portfolio/
 
 ## Contribution
 Made with ❤️ by GitAndrewCoffee
