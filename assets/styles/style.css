@@ -192,3 +192,28 @@ footer {
     color: var(--secondary-color);
 
 }
+
+/**/
+/*screen size responsive css */
+/**/
+
+@media screen and (max-width: 980px) {
+    
+    /* Place content titles above content */
+    .contentTitle {
+        width: 100%;
+        justify-content: center;
+        border-bottom: medium;
+        border-bottom-style: solid;
+    }
+    
+    /* realign contact list */
+    .contentMain ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        list-style: none;
+    
+      }
+}
