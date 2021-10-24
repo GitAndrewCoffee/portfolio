@@ -138,16 +138,27 @@ header nav ul {
 
 .contentMain {
     width: 75%;
-    text-overflow: wrap;
+    margin: 50px auto;
+    padding-bottom: 50px;
     color: var(--secondary-color);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.linkRow {    
-    display: flex;
+.linkBox {    
+    width:45%;        
+}
+
+.linkBox:first-child {    
+    width:100%;        
+}
+
+.linkBox img {    
+    width:100%;
+    height: 100%;
+    flex:100%;    
 }
 
 /* Defining Footer Styles */
